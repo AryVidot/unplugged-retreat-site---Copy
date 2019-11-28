@@ -106,7 +106,7 @@ body {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 2em;
+  /* padding: 1em; */
 }
 
 
@@ -134,18 +134,19 @@ header{
 
 /* Navigation */
 
+
 nav ul{
   list-style: none;
   padding: 0;
   margin: 0;
-  /* display: flex; */ 
+  display: flex; 
   justify-content: center;
-  border: 2px solid orchid;
+  /* border: 2px solid orchid; */
 }
 
 nav li{
   /* list-style: none; */
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   margin: 1em;
   flex-direction: column;
 }
@@ -155,15 +156,7 @@ nav a{
   padding: .25em 0;
   color: ;
   font-weight: ;
-  border:1px solid blue;
-
-}
-/* ========= Media Query Layout Nav ============*/
-
-@media (min-width=680px){
-  nav li{
-    flex-direction: ;
-  }
+  /* border:1px solid blue; */
 
 }
 
@@ -171,9 +164,12 @@ nav a{
 
 /* Form */
 input{
-  width: 100%;
+  width: 90%;
   padding: 0;
   box-sizing: border-box;
+}
+form{
+  margin-bottom: 20px;
 }
 
 /* features */
@@ -184,11 +180,11 @@ article{
 }
 
 .features {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   align-items: center;
   flex-flow: row wrap;
-  border: 3px solid orange;
+  /* border: 3px solid orange; */
 }
 
 .features h2 {
@@ -204,7 +200,7 @@ article{
 .features article {
   width: 55%;
   margin: 30px 0;
-  border: 5px solid greenyellow;
+  /* border: 5px solid greenyellow; */
 }
 
 .features-items {
@@ -212,7 +208,7 @@ article{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid olivedrab;
+  /* border: 5px solid olivedrab; */
 }
 
 /* .features-items{
@@ -230,9 +226,10 @@ article{
   
   =================== */
 .container{
-  /* width: 95%; */
-  margin: 0 auto;
-  border: 1px solid red;
+  width: 90%;
+  margin: 50px;
+  /* padding: .25em; */
+  /* border: 1px solid red; */
   /* display: flex; */
 }
 
@@ -357,6 +354,15 @@ article{
    Modify as content requires.
    ========================================================================== */
 
+/* ========= Media Query Layout Nav ============*/
+/* 
+@media (min-width=680px){
+  nav li{
+    flex-direction: ;
+  }
+
+} */
+
 @media only screen and (min-width: 768px ) {
     /*Tabet styles here 768px*/
    /* General styles */
@@ -403,7 +409,7 @@ article{
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {        
         /* width:  40%;        */
-        margin: 0;
+        /* margin: 0; */
         /* display: flex; */
         /* flex-direction: row; */
     }
@@ -494,7 +500,7 @@ article{
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {        
       /* width:          */
-      margin: 0;
+      /* margin: 0; */
   }
 
   /* Features */
