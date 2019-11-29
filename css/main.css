@@ -109,6 +109,14 @@ body {
   /* padding: 1em; */
 }
 
+.container{
+  width: 90%;
+  margin: 50px 0;
+  /* padding: .25em; */
+  /* border: 1px solid red; */
+  /* display: flex; */
+}
+
 
 /* ====================
   TYPOGRAPHY
@@ -128,10 +136,17 @@ h2{
   LAYOUT
   =================== */
 header{
+  padding: 15px 0;
   text-align: center;
   margin: 0;
 }
 
+/* header .container-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
 /* Navigation */
 
 
@@ -200,7 +215,7 @@ article{
 .features article {
   width: 55%;
   margin: 30px 0;
-  /* border: 5px solid greenyellow; */
+  border: 5px solid greenyellow;
 }
 
 .features-items {
@@ -225,13 +240,7 @@ article{
 /* ====================
   
   =================== */
-.container{
-  width: 90%;
-  margin: 50px;
-  /* padding: .25em; */
-  /* border: 1px solid red; */
-  /* display: flex; */
-}
+
 
 .container-nav{
   /* display: flex; */
