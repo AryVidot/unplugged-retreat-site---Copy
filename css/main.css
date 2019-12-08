@@ -113,7 +113,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   /* margin: 50px 0; */
-  padding: .25em;
+  padding: 1.25em;
   border: 1px solid red;
   /* display: flex; */
 }
@@ -141,6 +141,7 @@ header{
   text-align: center;
   margin: 0;
 }
+
 .container-nav{
   padding: 0;
 }
@@ -233,7 +234,73 @@ article{
 
 
 /* Footer */
+footer .container{
+  width: 100%;
+  margin: 0;
+  /* display: flex; */
+  /* flex-direction: column; */
+  border: 2px solid blue;
+}
 
+footer .contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-direction: column;
+  width: 100%;
+  /* margin-bottom: 50px; */
+}
+
+/* address h4 p a{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+} */
+
+footer h4{
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+footer .social-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 20px 0;
+}
+
+footer .contact, .social, .social-icons, h4{
+  display: flex;
+  justify-content: center;
+}
+
+
+.copyright{
+  margin: 0;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+
+/* footer .container-ft{
+  justify-content: center;
+  align-items: center;
+
+} */
 
 /* ====================
   
