@@ -123,7 +123,7 @@ body {
   TYPOGRAPHY
   =================== */
 .header-divider{
-/* border-bottom: 2px solid blue; */
+border-bottom: 2px solid blue;
 }
 
 h1{
@@ -140,6 +140,8 @@ header{
   padding: 15px 0;
   text-align: center;
   margin: 0;
+  background-color: thistle;
+
 }
 
 .container-nav{
@@ -149,7 +151,6 @@ header{
 
 
 /* Navigation */
-
 nav ul{
   list-style: none;
   padding: 0;
@@ -175,22 +176,29 @@ nav a{
 }
 
 /* Hero */
-
+.container-hero{
+  background-color: rosybrown;
+}
 /* Form */
+.container-form{
+  background-color: salmon;
+}
 input{
-  width: 95%;
+  width: 100%;
   height: 3.125em;/*50px*/
   padding: 0;
   box-sizing: border-box;
 }
 form{
   margin-bottom: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 form h2{
+  display: flex;
   align-items: flex-start;
 }
 
@@ -199,7 +207,9 @@ form h2{
 }
 
 /* features */
-
+.container-ftr{
+  background-color: silver;
+}
 article{
   display: flex;
   justify-content: center;
@@ -243,10 +253,14 @@ article{
 } */
 
 /* Reviews */
-
+.container-rev{
+  background-color: teal;
+}
 
 /* Footer */
+
 footer .container{
+  background-color: wheat;
   width: 100%;
   margin: 0;
   /* display: flex; */
@@ -314,30 +328,6 @@ footer .contact, .social, .social-icons, h4{
   padding: 0;
 }
 
-
-/* footer .container-ft{
-  justify-content: center;
-  align-items: center;
-
-} */
-
-/* ====================
-  
-  =================== */
-
-
-.container-nav{
-  /* display: flex; */
-}
-
-
-/* -------------------- Base Header - Footer Styles ------------------ */
-
-
-
-
-/* -------------------- Base Header - Footer Styles ------------------ */
-
 /* Hero Area */
 
 /* Aside */
@@ -351,11 +341,23 @@ footer .contact, .social, .social-icons, h4{
 /* ====================
    About Page
    =================== */
+.container-mission{
+background-color: teal;
+  }
+.container-map{
+    background-color: rgb(121, 37, 121);
+  }
+.container-ct{
+  background-color: rgb(157, 187, 48);
+}
 
 
 /* ===================
    FAQ Page 
    ================== */
+.container-faq{
+  background-color: tomato;
+}
 
 
 /* ==========================================================================
